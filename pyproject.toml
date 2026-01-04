@@ -1,0 +1,20 @@
+[project]
+name = "data-analytics-learning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "TembulatBekov",email = "bekov.tembulat.m@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "kaggle (>=1.8.3,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "data_analytics_learning", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
